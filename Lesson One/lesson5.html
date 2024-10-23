@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .outer {
+            display: flex;
+            background: darkslategray;
+            justify-content: center;
+        }
+
+        .inner {
+            background: black;
+            width: 45%;
+            padding: 5px;
+        }
+
+        .inner p {
+            color: azure
+        }
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #d7d7c4;
+            padding: 25px 0;
+        }
+        .smaller{
+            width: 24%;
+            height: 50px;
+            background-color: #124bb1;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<div class="outer">
+    <div class="inner">
+        <p><span><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores at enim maiores necessitatibus sapiente similique soluta sunt vitae. Ab aliquid ea est harum molestiae neque omnis porro, praesentium voluptatem.</span><span>Consectetur cum doloremque eaque eligendi eos facere facilis fuga id incidunt inventore, iste libero maxime minus nemo nihil numquam obcaecati quia quidem quis quos rerum sapiente temporibus vel veniam voluptate?</span></span>
+        </p>
+    </div>
+</div>
+<div class="container">
+    <div class="smaller">1</div>
+    <div class="smaller">2</div>
+    <div class="smaller">3</div>
+    <div class="smaller">4</div>
+</div>
+</body>
+</html>
